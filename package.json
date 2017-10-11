@@ -1,0 +1,34 @@
+{
+  "name": "async-iterable-sync-iterator",
+  "version": "0.1.0",
+  "description": "Asynchronously iterable (synchronous) iterator",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "tap test/**/*.js",
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timmolendijk/async-iterable-sync-iterator.git"
+  },
+  "author": "Tim Molendijk <npm@timmolendijk.nl>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timmolendijk/async-iterable-sync-iterator/issues"
+  },
+  "homepage": "https://github.com/timmolendijk/async-iterable-sync-iterator#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.34",
+    "tap": "^10.7.2",
+    "tslib": "^1.8.0",
+    "typescript": "^2.5.3"
+  },
+  "engines": {
+    // Only included here to indicate that this package has been developed
+    // against and tested on this version. It is very likely that it also works
+    // fine on several older versions.
+    "node": "^8.0.34"
+  }
+}
