@@ -45,3 +45,8 @@ async function main() {
 
 main();
 ```
+
+## Support
+
+This package has been developed against and tested on Node 8, but it is very
+likely that it also works fine on older version.

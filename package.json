@@ -13,6 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/timmolendijk/async-iterable-sync-iterator.git"
   },
+  "keywords": [
+    "iterator",
+    "async",
+    "await",
+    "iterable",
+    "stream"
+  ],
   "author": "Tim Molendijk <npm@timmolendijk.nl>",
   "license": "ISC",
   "bugs": {
@@ -26,9 +33,6 @@
     "typescript": "^2.5.3"
   },
   "engines": {
-    // Only included here to indicate that this package has been developed
-    // against and tested on this version. It is very likely that it also works
-    // fine on several older versions.
-    "node": "^8.0.34"
+    "node": "^8.0.0"
   }
 }
