@@ -48,5 +48,4 @@ main();
 
 ## Support
 
-This package has been developed against and tested on Node 8, but it is very
-likely that it also works fine on older version.
+Has been developed and tested against Node 8, but it is very likely to also work fine on older versions.
